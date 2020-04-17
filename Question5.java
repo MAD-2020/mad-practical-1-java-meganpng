@@ -12,8 +12,8 @@ public class Question5
     
 
     for(int i = a; i > 0; i--){
-      Scanner mySet = new Scanner(System.in);
-      int b = mySet.nextInt();
+      
+      int b = in.nextInt();
       data.add(b);
       
     }
