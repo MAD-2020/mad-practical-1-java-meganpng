@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class Question2
 {
@@ -12,8 +12,6 @@ public class Question2
     
     double weight = myweight.nextDouble();
     double bmi = weight / (height * height);
-    System.out.printIn(height);
-    System.out.printIn(weight);
     System.out.println(bmi);
 
   }
